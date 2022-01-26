@@ -32,8 +32,8 @@
                   </button>
                   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                      <a class="nav-link active" aria-current="page" href="productos.html">Productos</a>
-                      <a class="nav-link" href="nosotros.html">Nosotros</a>
+                      <a class="nav-link" aria-current="page" href="productos.html">Productos</a>
+                      <a class="nav-link active" href="nosotros.html">Nosotros</a>
                       <a class="nav-link" href="recetas.html">Recetas</a>
                       <a class="nav-link" href="contacto.html">Contacto</a>
                     </div>
@@ -46,20 +46,73 @@
     </header>
 
     <main>
-        <h2>Conocenos un poco más.</h2>
+        <h2 class="titulo-nosotros">Conocenos un poco más.</h2>
     </main>
 
-    <div>
-        <article>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam eum quasi, asperiores harum commodi odio corporis, nihil debitis atque veritatis consequuntur impedit corrupti accusantium voluptas quod, facere est. Excepturi, eveniet.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita odit sint saepe optio aspernatur ipsam a? Explicabo architecto ad exercitationem rem eius placeat, esse, libero nostrum eum consectetur nihil ea?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo facilis enim mollitia sed unde. Dolores modi animi rem consectetur quidem consequatur sit, autem perferendis itaque adipisci nulla asperiores vel minus.</p>
-
+    <div class="container-productos">
+        <article class="articulo-nosotros">
+            <p class="text-nos"> 
+                Somos estudiantes de cocina, apasionados por el mundo de la gastronomía y queremos que vos, desde tus posibilades, puedas acercarte a él.
+                Te ofrecemos recetas, para leer o si te llevas mejor con los tutoriales, videos! No hay excusas para no cocinar!
+                Tratamos de abarcar distintas opciones, recetas con carnes, vegetales y con productos veganos, y si obviamos algún producto, o si queres 
+                sugerirnos el uso de algun producto no dudes en contactarnos!
+                Además de las recetas, ofrecemos un servicio de lunch para el evento que quieras y tenemos una pequeña tienda con distintos materiales que te pueden servir a la hora
+                de invadir la cocina.
+                Esperamos que disfrutes tanto como nosotros!
+            </p>
 
         </article>
-
-
     </div>
+
+    <div class="container-carousel">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="../img/chef1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5></h5>
+                  <p></p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="../img/chef2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5></h5>
+                  <p></p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="../img/chef3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5></h5>
+                  <p></p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="../img/chef4.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5></h5>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+
+  
 
     <footer>
         <div class="container">

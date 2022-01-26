@@ -50,7 +50,7 @@
    
     
    
-   /* SECCION BIENVENIDA */
+   /* SECCION PRINCIPAL */
    .bienvenida{
        background-image: url('../img/inicio.jpeg');
        min-height: 400px;
@@ -76,6 +76,10 @@
        justify-content: center;
    }
    
+   .card-lunch{
+       display: flex;
+      
+   }
    
    
    /* SECCION PRODUCTOS */
@@ -168,6 +172,22 @@
        padding: 8px 16px;
        text-decoration: none;
    }
+
+   /* SECCIÓN NOSOTROS*/
+
+   .titulo-nosotros{
+       text-align: center;
+   }
+
+    .container-carousel{
+        width: 70%;
+       margin: 0 auto;
+    }
+
+    .text-nos{
+        margin: 12px;
+    }
+
    
    /* PAGINA PRODUCTOS */
    .productos-destacados .container{
