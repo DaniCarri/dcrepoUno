@@ -1,0 +1,8 @@
+h1 {
+  color: black; }
+
+a {
+  background-color: grey;
+  transition: all 1.5s ease; }
+  a:hover {
+    background-color: transparent; }

@@ -1,0 +1,14 @@
+@import "colores.scss";
+
+h1{
+    color: $colorTitulos;
+}
+
+a{
+    background-color: $fondoBoton;
+    transition: all 1.5s ease;
+
+    &:hover{
+        background-color: transparent;
+    }
+}
