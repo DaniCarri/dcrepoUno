@@ -1,14 +1,29 @@
 @import "colores.scss";
 
-h1{
-    color: $colorTitulos;
+
+
+@mixin botones($fondo, $colorTexto){
+    background-color: $fondo;
+    color: $colorTexto;
+    padding: 8px 16px;
+    text-decoration: none;
+    display: block;
+    max-width: 120px;
+    margin: auto;
+    margin-bottom: 2rem;
 }
 
-a{
-    background-color: $fondoBoton;
-    transition: all 1.5s ease;
+.btn-mas{
+    @include botones($fondoBoton, $textoBoton);
+}
 
-    &:hover{
-        background-color: transparent;
-    }
+%enlacesHover{
+
+    border-bottom: 1px solid;
+    color: #F2B138 !important;
+
+}
+
+.nav-link:hover{
+    @extend %enlacesHover;
 }

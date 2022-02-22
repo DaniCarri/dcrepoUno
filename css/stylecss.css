@@ -1,8 +1,13 @@
-h1 {
-  color: black; }
+.btn-mas {
+  background-color: #F2B138;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  display: block;
+  max-width: 120px;
+  margin: auto;
+  margin-bottom: 2rem; }
 
-a {
-  background-color: grey;
-  transition: all 1.5s ease; }
-  a:hover {
-    background-color: transparent; }
+.nav-link:hover {
+  border-bottom: 1px solid;
+  color: #F2B138 !important; }
